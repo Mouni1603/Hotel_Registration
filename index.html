@@ -1,0 +1,92 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Registration form</title>
+        <link rel="stylesheet" href="style.css"/>
+    </head>
+    <body>
+        <section>
+            <div class="main">
+        <form action="booking.html">
+            <h1>Hotel Booking Registration Form</h1>
+             <div class="customer">
+                <h2>--Customer Info--</h2>
+                <label for="first">First Name:   </label>
+                <input type="text" id="first" placeholder="Enter first name" required />
+                <br><br>
+                <label for="last">Last Name:   </label>
+                <input type="text" id="last" placeholder="Enter last name" required />
+                <br><br>
+                <label for="date">Check-in Date:   </label>
+                <input type="date" id="date" required />
+                <br><br>
+                <label for="days">Total No of Days:   </label>
+                <input type="number" id="days" placeholder="No of days to stay" required />
+                <br><br>
+                <label for="persons">Total No of Persons:   </label>
+                <input type="number" id="persons" placeholder="Enter no of persons" required />
+             </div>
+             <div class="room">
+                <h2>--Room Information--</h2>
+                <label for="type">Room Type:   </label>
+                <select name="roomType" id="type">
+                    <option value="Delux Room">Delux Room</option>
+                    <option value="Suite Room">Suite Room</option>
+                </select>
+                <br><br>
+                <label for="ame">Amenities:   </label>
+                <select name="amenities" id="ame">
+                    <option value="AC">AC</option>
+                    <option value="Locker">Locker</option>
+                </select>
+             </div>
+             <div class="payment">
+                <h2>--Advance Payment--</h2>
+                <label for="pay">Advance Payment:   </label>
+                <input type="number" id="pay" placeholder="Advance Payment" required />
+                <br><br>
+                <div class="but">
+                <input type="button" value="Calculate Total Cost" id="btn" onclick="register()" />
+                </div>
+             </div>
+             <div class="cost">
+                <h2>--Total Cost Calculation--</h2>
+                <label for="roomcost">Total Room Cost:   </label>
+                <input type="number" id="roomcost">
+                <br><br>
+                <label for="amen">Total Amenities Cost:   </label>
+                <input type="number" id="amen">
+                 <h3>Note:Upto 2 persons--No charge in cost<br>Otherwise Per Day Cost for Extra person:1000/- </h3>
+             </div>
+             <div class="charges">
+                <h2>--Additional Charges--</h2>
+                <label for="additional">Additional Charges:   </label>
+                <input type="number" id="additional">
+             </div>
+             <div class="totalcost">
+                <h2>--Total Cost--</h2>
+                <label for="total">Total Cost:   </label>
+                <input type="number" id="total">
+             </div>
+             <div class="balance">
+                <h2>--Balance Amount--</h2>
+                <label for="bal">Balance Amount:   </label>
+                <input type="number" id="bal">
+             </div>
+             <br>
+             <label>
+             <input type="checkbox" required />
+             The customer should be careful with the furniture.
+             Room should be kept neat and clean. 
+             I agree the tems and conditions.
+            </label>
+            <br><br>
+            <div class="butn">
+            <input type="submit" value="Register" id="btns" />
+           </div>
+        </form>
+    </div>
+    </section>
+        <script src="script.js"></script>
+    </body>
+</html>

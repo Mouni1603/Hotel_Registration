@@ -1,0 +1,98 @@
+body
+{
+ margin:0;
+ padding:0;
+ background-image: url("hotel.jpg"); 
+ background-repeat: no-repeat;  
+}
+section
+{
+    justify-content: center;
+    align-items: center;
+    display:flex;
+    height: 1430px;
+}
+.main
+{
+    height:95%;
+    width:52%;
+    border-radius: 10px;
+    background-color: rgba(255, 228, 196, 0.453);
+    border:1px solid burlywood;
+}
+h2
+{
+ padding-left: 290px;
+ padding-top:10px;
+}
+h1
+{
+    padding-left: 210px;
+    font-weight: bold;
+}
+h3
+{
+    padding-left: 30px;
+    font-size:25px;
+    font-weight:bold;
+}
+label
+{
+    padding-left: 30px;
+    font-size: 22px;
+}
+input[type="text"]
+{
+    font-size: 20px;
+    width:350px;
+    cursor:pointer;
+}
+input[type="number"]
+{
+    font-size: 20px;
+    width:350px;
+    cursor: pointer;
+}
+input[type="date"]
+{
+    font-size: 20px;
+    width:200px;
+    cursor:pointer;
+}
+option
+{
+    font-size: 20px;
+    width:350px; 
+}
+#type
+{
+    font-size: 20px;
+    width:200px;
+}
+#ame
+{
+    font-size: 20px;
+    width:200px;
+}
+#btn
+{
+    font-size: 20px;
+    background-color:rgb(234, 205, 255);
+    border-radius: 10px;
+}
+.but
+{
+ padding-left: 30%; 
+ padding-top: 10px;
+}
+.butn
+{
+    padding-left:350px;
+}
+#btns
+{
+    font-size: 20px;
+    background-color: #490ac6;
+    border-radius: 10px;
+    color:bisque;
+}

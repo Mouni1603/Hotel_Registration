@@ -1,0 +1,39 @@
+body
+{
+ margin:0;
+ padding: 0;
+ background: url("Mouni.jpg");
+ background-repeat: no-repeat;
+ 
+}
+section
+{
+    justify-content: center;
+    align-items: center;
+    display:flex;
+    height:700px;
+}
+.room
+{
+    background-color: rgb(255, 228, 196, 0.453);
+    height:30vh;
+    width:50vw;
+    border:1px solid burlywood;
+    border-radius: 20px;
+    border-top:200px;
+    background-clip: padding-box;
+}
+h1
+{
+    padding-left: 160px;
+    padding-top: 20px;
+}
+h2
+{
+    padding-left: 300px;
+}
+a
+{
+    padding-left:310px;
+    font-size: 20px;
+}
